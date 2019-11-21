@@ -1,21 +1,27 @@
 ## `Post Organizer`
-This is a test project to organize posts.
-Timelog:
+This is a test project to organize post organizer
+---
+#### `Timelog:`
 11/21/2019
-2:09pm - Launched create react app.
-2:15pm - removed boilerplate code and installed recux and testing dependecies.
-2:20pm - All of my boilerplate stuff is pulled in (useFetch premade for another project is being reused) and setting up the simpe store for redux.
-2:25pm - Data is being pulled in via the useFetch Hook. App.js has rendering for Loading and Error from the useFetch Hook.
-2:30pm - Post component is created.
-2:40pm - The posts are seperated into two divs and display with default styling.
-3:00pm - the styling is completed.
-3:15pm - Posts Unit Test are written and pass.
-3:40pm - Refactored Apps to Have a Postgroup so it is possible (with my knowldge) to do unit testing.
-***Note to self. Learn how to do unit testing with the Hooks...I will not have good coverage.***
-4:00pm - did all of the unit test I am able to do without understanding how UT works with hooks. SMDH.
-4:10pm - fixed afew other gramatical errors.
 
-This will be deleted upon request from BNR. 
+* 2:10pm - Launched create react app.
+* 2:15pm - removed boilerplate code and installed recux and testing dependecies.
+* 2:20pm - All of my boilerplate stuff is pulled in (useFetch premade for another project is being reused) and setting up the simpe store for redux.
+* 2:25pm - Data is being pulled in via the useFetch Hook. App.js has rendering for Loading and Error from the useFetch Hook.
+* 2:30pm - Post component is created.
+* 2:40pm - The posts are seperated into two divs and display with default styling.
+* 3:00pm - the styling is completed.
+* 3:15pm - Posts Unit Test are written and pass.
+* 3:40pm - Refactored Apps to Have a Postgroup so it is possible (with my knowldge) to do unit testing.
+
+***Note to self. Learn how to do unit testing with the Hooks...I will not have good coverage.***
+
+* 4:00pm - did all of the unit test I am able to do without understanding how UT works with hooks. SMDH.
+* 4:10pm - fixed afew other gramatical errors.
+* 4:20pm - finished pushing up an updated readme to github, created a build version.
+* 4:25pm - created published version for viewing at "http://post-organizer.s3-website-us-east-1.amazonaws.com/"
+* 4:25pm - zipped a version without node_modules
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
