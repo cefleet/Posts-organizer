@@ -1,22 +1,46 @@
-.App {
-  text-align: center;
+
+body {
+    padding:0;
+    margin:0;
+    color:#222;
 }
 
-.App-logo {
-  height: 40vmin;
+h1, h2,h3 {
+    border-bottom:1px solid;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+    font-size:14px;
 }
 
-.App-link {
-  color: #09d3ac;
+.allPosts {
+    display:flex;
+    justify-content: space-between;
+}
+
+.postGroup {
+    padding:10px;
+    margin:10px;
+}
+
+.currentUserPosts {
+    border-right:1px solid #222;
+}
+
+.post {
+    padding:6px;
+    margin:10px;
+    border-radius: 6px;
+    background: #eee;
+    box-shadow: 6px 5px 5px #ccc;
+}
+
+.post:hover {
+    background: #dededd;
+}
+
+.createdBy {
+    font-size:10px;
+    text-align:right;
+
 }
