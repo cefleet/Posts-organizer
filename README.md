@@ -22,6 +22,11 @@ This is a test project to organize post organizer
 * 4:25pm - created published version for viewing at "http://post-organizer.s3-website-us-east-1.amazonaws.com/"
 * 4:25pm - zipped a version without node_modules
 
+11/22/2019
+
+* 7:30am - started refactoring to make better useage of redux.
+* 7:42pm - implemented the better usage. Start working on the new unit tests.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />

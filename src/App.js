@@ -34,8 +34,8 @@ function App() {
     <div className="main">
       <h1>Posts</h1>
       <div className="allPosts">
-        <PostGroup status={'current'} posts={posts.data} currentUser={currentUser}/>        
-        <PostGroup status={'other'} posts={posts.data} currentUser={currentUser} />
+        <PostGroup status={'current'} currentUser={currentUser}/>        
+        <PostGroup status={'other'} currentUser={currentUser} />
       </div>
     </div>
   );
