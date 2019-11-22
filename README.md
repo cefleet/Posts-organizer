@@ -25,8 +25,8 @@ This is a test project to organize post organizer
 11/22/2019
 
 * 7:30am - started refactoring to make better useage of redux.
-* 7:42pm - implemented the better usage. Start working on the new unit tests.
-
+* 7:42am - implemented the better usage. Start working on the new unit tests.
+* 8:02am - pushed up what I had done to github in a new branch called broken "unitTestBroken"
 ### `npm start`
 
 Runs the app in the development mode.<br />
