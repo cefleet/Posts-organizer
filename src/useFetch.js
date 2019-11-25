@@ -4,28 +4,28 @@ import { useDispatch } from "react-redux";
 
 const useFetch = (url) => {
     const [error,setError] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [fetching, setFetching] = useState(true);
     const dispatch = useDispatch();
 
     useEffect(() => {
         const fetchData = async function () {
             try {
-                setLoading(true);
+                setFetching(true);
                 const response = await axios.get(url);
                 if (response.status === 200) {
-                   dispatch({type:"FETCH_DATA",data: response.data})
+                   dispatch({type:"FETCH_POSTS",data: response.data})
                 }
             } catch (error) {
                 setError(error);
                //throw error;
             } finally {
-                setLoading(false);
+                setFetching(false);
             }
         };
         fetchData();
     }, [url,dispatch]);
 
-    return { loading,error };
+    return { fetching,error };
 
 };
 

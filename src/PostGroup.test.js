@@ -27,7 +27,6 @@ store = mockStore(initialState);
 
 describe('Test PostGroup Current User', () => {
     let container = shallow(<Provider store={store} ><PostGroup status="current" currentUser={currentUser} /></Provider>);
-    console.log(container.find('.posts').children().text());
 
     it('launches without crashing', () => {});
 
@@ -39,7 +38,6 @@ describe('Test PostGroup Current User', () => {
 
 describe('Test PostGroup All other Users', () => {
     let container = shallow(<Provider store={store} ><PostGroup status="other" currentUser={currentUser} /></Provider>);
-    console.log(container.find('.posts').children().text());
 
     it('launches without crashing', () => {});
 

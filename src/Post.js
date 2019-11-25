@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux';
 
 const Post = ({postId})=>{
 
-    const post = useSelector(state=>state.data.filter(p=>p.id === postId));
-
+    const post = useSelector(state=>state.posts.filter(p=>p.id === postId));
+    
     if(!post){
         return (<div className="error">The Post is Missing.</div>)
     }
